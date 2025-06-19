@@ -72,17 +72,27 @@
     }
   },
   {
-      "id": 7,
-      "priority": 1,
-      "action": {
-        "type": "block"
-      },
-      "condition": {
-        "urlFilter": "||www.kore.co.il/system/ad_manager/get_all_banners",
-        "resourceTypes": [
-          "xmlhttprequest",
-          "main_frame"
-        ]
-      }
+    "id": 7,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||www.kore.co.il/system/ad_manager/get_all_banners",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "main_frame"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||ultra.clicka1.co.il"
+    }
   }
 ]
